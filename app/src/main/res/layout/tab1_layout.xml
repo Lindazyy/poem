@@ -10,7 +10,7 @@
         android:layout_gravity="center"
         android:id="@+id/fragment1imag"/>
 
-    
+
 
 
 </LinearLayout>

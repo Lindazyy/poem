@@ -4,19 +4,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Fragment2"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:id="@+id/fragment2text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tune_title"
+        android:id="@+id/btn_tune_title"/>
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_gravity="center"
-        android:id="@+id/fragment2imag"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/famous_writer"
+        android:id="@+id/btn_famous_writer"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historical_background"
+        android:id="@+id/btn_historical_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genres"
+        android:id="@+id/btn_genres"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anecdotes"
+        android:id="@+id/btn_anecdotes"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personage_relationship"
+        android:id="@+id/btn_personage_relationship"/>
 
 </LinearLayout>
