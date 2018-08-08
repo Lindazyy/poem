@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">Poem</string>
     <string name="hello_world">Hello World!</string>
+
     <string name="tune_title">词牌名</string>
     <string name="famous_writer">词作家</string>
     <string name="historical_background">历史背景</string>
     <string name="genres">流派</string>
     <string name="anecdotes">逸闻趣事</string>
     <string name="personage_relationship">人物关系</string>
+
+    <string name="title_activity_testview">testview</string>
+    <string name="title_activity_WriteEdit">编辑</string>
+
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="check">校验</string>
+    <string name="hint">提示</string>
+
+    <string name="hint_title">此处输入标题</string>
+    <string name="hint_content">请按校验标准分行</string>
 </resources>

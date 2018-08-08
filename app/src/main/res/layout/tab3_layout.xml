@@ -12,11 +12,16 @@
         android:textSize="20sp"
         android:gravity="center"
         android:id="@+id/fragment3text"/>
-
     <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:id="@+id/fragment3imag"/>
+    <Button
+        android:id="@+id/btn_WriteTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Just test" />
 
 </LinearLayout>
