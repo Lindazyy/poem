@@ -63,11 +63,19 @@ public class MainActivity extends AppCompatActivity {
     private MyAdapter adapter;
     private String[] titles = {"主页", "历史", "写词", "用户"};
     private int images[] = {R.drawable.home_selector, R.drawable.read_selector, R.drawable.write_selector, R.drawable.user_selector};
+    private MyApplication app;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //全局变量：SQLite数据库
+        app = (MyApplication) getApplication();
+        app.wDBAdapter = new DBAdapter(this);
+        app.wDBAdapter.open();
+        //app.wDBAdapter.deleteAllData();
+
         //实例化
         viewpager = (ViewPager) findViewById(R.id.viewpager);
         tablayout = (TabLayout) findViewById(R.id.tablayout);
