@@ -25,14 +25,10 @@ import java.util.Map;
 
 
 public class WriteSelect extends Activity {
-
+/*
     private ListView listview;
     private SimpleAdapter simple_adapter;
     private List<Map<String, Object>> dataList;
-    private Button WriteTest;
-    private TextView tv_content;
-    private PoemDataBaseHelper DbHelper;
-    private SQLiteDatabase DB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +40,7 @@ public class WriteSelect extends Activity {
 
     private void InitView() {
         WriteTest = (Button) findViewById(R.id.btn_WriteTest);
-        DbHelper = new PoemDataBaseHelper(this);
+        DbHelper = new DBOpenHelper(this);
         DB = DbHelper.getReadableDatabase();
 
         //listview.setOnItemClickListener(this);
@@ -60,6 +56,7 @@ public class WriteSelect extends Activity {
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
+
         });
-    }
+    }*/
 }
